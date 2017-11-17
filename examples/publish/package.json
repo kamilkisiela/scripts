@@ -1,0 +1,26 @@
+{
+  "name": "example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Example",
+  "main": "lib/bundles/bundle.js",
+  "module": "lib/index.js",
+  "scripts": {
+    "test": "k-scripts-publish --beta"
+  },
+  "k-scripts": {
+    "publish": {
+      "copy": ["./lib", "./README.md"],
+      "remove": ["jest", "scripts", "devDependencies"],
+      "set": {
+        "main": "bundle.js",
+        "module": "index.js"
+      }
+    }
+  },
+  "dependencies": {
+    "graphql": "^0.11.0"
+  },
+  "author": "Kamil Kisiela <kamil.kisiela@gmail.com>",
+  "license": "MIT"
+}
