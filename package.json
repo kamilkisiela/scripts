@@ -1,6 +1,6 @@
 {
   "name": "@kamilkisiela/scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "bin": {
     "k-scripts-publish": "./bin/publish.js"
@@ -10,6 +10,10 @@
   },
   "author": "Kamil Kisiela <kamil.kisiela@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "kamilkisiela/scripts"
+  },
   "dependencies": {
     "commander": "2.9.0"
   }

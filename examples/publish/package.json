@@ -10,8 +10,15 @@
   },
   "k-scripts": {
     "publish": {
-      "copy": ["./lib", "./README.md"],
-      "remove": ["jest", "scripts", "devDependencies"],
+      "copy": [
+        "./lib",
+        "./README.md"
+      ],
+      "remove": [
+        "jest",
+        "scripts",
+        "devDependencies"
+      ],
       "set": {
         "main": "bundle.js",
         "module": "index.js"
@@ -22,5 +29,8 @@
     "graphql": "^0.11.0"
   },
   "author": "Kamil Kisiela <kamil.kisiela@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@kamilkisiela/scripts": "^1.0.0"
+  }
 }
